@@ -4,6 +4,7 @@ button = Button(2)
 
 while True:
     if button.is_pressed:
-        print("Button is pressed")
+        print("Button is pressed - LOW")
     else:
-        print("Button is not pressed")
+        print("Button is not pressed - HIGH")
+        
