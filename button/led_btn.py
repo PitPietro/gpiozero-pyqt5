@@ -1,7 +1,7 @@
 from gpiozero import LED, Button
 from signal import pause
 
-def blink_led():
+def led_btn():
     led_1 = LED(17)
     led_2 = LED(18)
     
@@ -16,4 +16,4 @@ def blink_led():
     pause()
 
     
-blink_led():
+led_btn():
