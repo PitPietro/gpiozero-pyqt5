@@ -11,9 +11,9 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         
         # GPIO 17 --> pin 11
-        self.my_led_1 = LED(17)
+        self.my_led_1 = LED(18)
         # GPIO 5 --> pin 29
-        self.my_led_2 = LED(5)
+        self.my_led_2 = LED(15)
 
         self.setMinimumSize(QSize(500, 500))    
         self.setWindowTitle('LED Blink PyQt5 GUI')
